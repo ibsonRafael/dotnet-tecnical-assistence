@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace WebService
+namespace TecnicalAssistence
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace WebService
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebService", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TecnicalAssistence", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace WebService
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebService v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TecnicalAssistence v1"));
             }
 
             app.UseHttpsRedirection();

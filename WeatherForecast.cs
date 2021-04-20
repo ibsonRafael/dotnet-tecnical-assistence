@@ -1,6 +1,6 @@
 using System;
 
-namespace WebService
+namespace TecnicalAssistence
 {
     public class WeatherForecast
     {

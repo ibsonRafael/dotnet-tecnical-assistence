@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/WebService/WebService.csproj",
-      "projectName": "WebService",
-      "projectPath": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/WebService/WebService.csproj",
+      "projectUniqueName": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/TecnicalAssistence/TecnicalAssistence.csproj",
+      "projectName": "TecnicalAssistence",
+      "projectPath": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/TecnicalAssistence/TecnicalAssistence.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/WebService/obj/",
+      "outputPath": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/TecnicalAssistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
