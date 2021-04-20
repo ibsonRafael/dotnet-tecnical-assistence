@@ -193,19 +193,19 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/Users/ibsonmachado/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/TecnicalAssistence/TecnicalAssistence.csproj",
+      "projectUniqueName": "/Users/ibsonmachado/Documents/FIAP/3SEM/ConnectionCyrela/TecnicalAssistence/TecnicalAssistence.csproj",
       "projectName": "TecnicalAssistence",
-      "projectPath": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/TecnicalAssistence/TecnicalAssistence.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/mnt/ibsonmachado/Documents/Fiap/3SEM/ConnectionCyrela/TecnicalAssistence/obj/",
+      "projectPath": "/Users/ibsonmachado/Documents/FIAP/3SEM/ConnectionCyrela/TecnicalAssistence/TecnicalAssistence.csproj",
+      "packagesPath": "/Users/ibsonmachado/.nuget/packages/",
+      "outputPath": "/Users/ibsonmachado/Documents/FIAP/3SEM/ConnectionCyrela/TecnicalAssistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/Users/ibsonmachado/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -252,7 +252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
