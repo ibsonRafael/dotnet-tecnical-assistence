@@ -6,10 +6,10 @@ namespace TecnicalAssistence.Api.Dto
 {
     public class TecnicalAssistence
     {
-        public DateTime ActualStart { get; set; }
-        
+        public DateTime EstimatedStart { get; set; }
         public DateTime EstimatedEnd { get; set; }
         
+        public DateTime ActualStart { get; set; }
         public DateTime ActualEnd { get; set; }
         
         public TipoAtividade TipoAtividade { get; set;  }
@@ -21,6 +21,5 @@ namespace TecnicalAssistence.Api.Dto
         public Bloco Bloco { get; set; }
         
         public Unidade Unidade { get; set; }
-
     }
 }
