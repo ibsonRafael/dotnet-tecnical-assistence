@@ -46,6 +46,9 @@ namespace TecnicalAssistence
                         "<br />" +
                         "<h5>Sequencia de status de um atendimento</h5>" +
                         "<center><img src=\"/images/status-flow.png\" /></center><br />" +
+                        "<br />" +
+                        "<h5>Database</h5>" +
+                        "<center><img src=\"/images/cyrela-db.png\" style=\"width: 50%;\"/></center><br />" +
                         "<br />",
                     Contact = new OpenApiContact {Name = "Time XXXX", Email = "time.xxx@fiap.com"}
                 });

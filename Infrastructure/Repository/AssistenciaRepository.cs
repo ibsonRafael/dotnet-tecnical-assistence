@@ -19,6 +19,13 @@ namespace TecnicalAssistence.Infrastructure.Repository
         }
         
         
+        public AssistenciaEntity Inserir(AssistenciaEntity assistenciaEntity)
+        {
+            context.AssistenciaEntity.Add(assistenciaEntity);
+            context.SaveChanges();
+            return assistenciaEntity;
+        }
+        
         public IList<AssistenciaEntity> Listar()
         {
             return context.AssistenciaEntity.ToList();

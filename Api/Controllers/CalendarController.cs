@@ -11,7 +11,7 @@ using TecnicalAssistence.Infrastructure.Repository;
 namespace TecnicalAssistence.Api.Controllers
 {
     [ApiController]
-    [Route("/api/v1/tecnical-assistence")]
+    [Route("/api/v1/agendamento")]
     public class CalendarController
     {
 

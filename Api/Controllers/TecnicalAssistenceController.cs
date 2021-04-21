@@ -12,8 +12,12 @@ using TecnicalAssistence.Infrastructure.Repository;
 
 namespace TecnicalAssistence.Api.Controllers
 {
+    
+    /// <summary>
+    /// Controller responsável pelos agentamentos de manutenção, visita, obras etc...
+    /// </summary>
     [ApiController]
-    [Route("/api/v1/tecnical-assistence")]
+    [Route("/api/v1/agendamento")]
     public class TecnicalAssistenceController : ControllerBase
     {
         
@@ -43,7 +47,6 @@ namespace TecnicalAssistence.Api.Controllers
         /// </summary>
         /// <param name="filtros">Filtros para uso na listagem</param>
         /// <returns>Listagem com todos os agendamentos.</returns>
-         
         [HttpGet]
         public List<AssistenciaEntity> ListaAgendamentos([FromQuery] FiltroAgendamento filtros)
         {
@@ -83,7 +86,7 @@ namespace TecnicalAssistence.Api.Controllers
         /// <returns></returns>
         [HttpPut]
         [Route("{idAgendamento}")]
-        public List<Dto.TecnicalAssistence> AtualizaAgendamentoAssistencia(String idAgendamento, [FromBody] Dto.TecnicalAssistence tecnicalAssistence)
+        public List<AssistenciaEntity> AtualizaAgendamentoAssistencia(String idAgendamento, [FromBody] AssistenciaEntity tecnicalAssistence)
         {
             _logger.LogInformation("Salvando novo agendamento");
             return null;
@@ -98,11 +101,12 @@ namespace TecnicalAssistence.Api.Controllers
         /// <param name="tecnicalAssistence"></param>
         /// <returns></returns>
         [HttpPost]
-        public Dto.TecnicalAssistence PreAgendar([FromBody] Dto.TecnicalAssistence tecnicalAssistence)
+        public AssistenciaEntity PreAgendar([FromBody] AssistenciaEntity tecnicalAssistence)
         {
             _logger.LogInformation("Pre-Agendar atendimento e bloquear a janela de horários por 5 minutos");
+            tecnicalAssistence = _assistenciaRepository.Inserir(tecnicalAssistence);
             _logger.LogInformation(tecnicalAssistence.ToString());
-            return null;
+            return tecnicalAssistence;
         }
         
         
